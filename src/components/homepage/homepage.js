@@ -9,7 +9,9 @@ const Homepage = ({setLoginUser}) => {
         <div className="homepage"> 
         <h1>Main Dashboard</h1>
          <div className="button" onClick={() => history.push("/login")}> Logout</div>
+         <div className="feed">Scrapped Data</div>
         </div>
+
     )
 }
 
